@@ -1,0 +1,41 @@
+.order-list-content {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  box-shadow: 0px 0px 7px #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.order-list-item {
+  padding-left: 10px;
+  border: 1px solid #cbcbcb;
+  margin: 5px 0;
+  display: flex;
+  cursor: pointer;
+}
+
+.item {
+  width: 100%;
+  flex: 1 0 90%;
+}
+
+.order-list-item p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.order-list-item > span {
+  flex: 1 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ccc;
+  color: #555;
+}
+
+.order-list-item p:nth-child(2) {
+  word-wrap: break-word;
+  max-width: 90%;
+  color: #a9a9a9;
+}

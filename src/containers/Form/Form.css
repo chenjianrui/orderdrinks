@@ -1,0 +1,25 @@
+.required-field {
+  color: #dc004e;
+  vertical-align: super;
+}
+
+.form-content input,
+.form-content textarea {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-footer {
+  margin: 10px;
+  text-align: right;
+}
+
+.form-footer a {
+  margin-right: 10px;
+}
